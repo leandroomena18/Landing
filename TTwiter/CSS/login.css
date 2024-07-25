@@ -1,0 +1,218 @@
+body {
+    background-color: #181B24;
+    margin: 0;
+    font-family: "Inter";
+
+
+}
+
+.apresentacao {
+    max-width: 90rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 180px;
+}
+
+.left_logo{
+    min-width: 293px;
+    height: 304px;
+}
+.right_tela {
+    background-color: #F2F2F2;
+    max-width: 547px;
+    height: 591px;
+
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.titulo {
+    max-width: 400px;
+    height: 58px;
+    color: black;
+    margin: 0;
+    text-shadow: 0 0.2em 0.2em gray; 
+}
+
+.grupo_input {
+    max-width: 400px;
+   
+    height: 180px;
+}
+
+
+.grupo_input > input {
+    width: 400px;
+    height: 58px;
+    border-radius: 10px;
+    border-color: #F2F2F2;
+
+}
+
+.grupo_input > label {
+    width: 3rem;
+    height: 20px;
+    padding-left: 3px;
+
+    background-color: #F2F2F2 ;
+    color: #46494C;
+    display: flex;
+    flex-direction: column; 
+    border: none;
+    position: relative;
+
+    top: 12px;
+    left:  15px;
+
+}
+
+.grupo_input > input::placeholder {
+    border-radius: 20px;
+    color: gray;
+    padding: 15px;   
+}
+
+label.email {
+    width: 2.5rem;
+    height: 20px;
+    padding-right: 3px;   
+}
+
+.olho {
+    position: relative;
+    left: 370px;
+    bottom: 35px;
+}
+
+.esqueci_senha {
+    width: 170px;
+    height: 25px;
+    position: relative;
+    left: 125px;
+    background-color: #F2F2F2;
+    color: #105F74; 
+}
+
+.grupo_botao {
+    max-width: 400px;
+    height: 100px;
+    padding: 30px ;
+
+}
+
+ .entrar {
+    width: 25rem;
+    height: 49px;
+    border: 0;
+
+    color: #F2F2F2;
+    background-color: #105F74;
+    
+    font-weight: 800;
+    border-radius: 10px;
+ }
+
+ .registrar {
+    width: 25rem;
+    height: 49px;
+    border: 0;
+    background-color: #F2F2F2;
+    color: #105F74;
+    font-weight: 800;
+
+ }
+
+.termos p {
+    font-size: 16px; 
+    margin: 0;
+}
+
+
+@media (max-width: 800px){
+
+body {
+   
+   font-family: "Inter";
+}
+.apresentacao {
+    width: 360px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.left_logo {
+    width: 296px;
+
+    position: relative;
+    left: 100px;
+   
+}
+.right_tela {
+    width: 296px;
+    height:  479px;
+    position: relative;
+    left: 120px;
+    top: 130px;
+}
+
+.titulo {
+    width: 260px;
+    font-size: 10px;
+}
+
+.left_logo {
+   width: 80px;
+   height: 83px;
+    position: relative;
+    
+}
+
+.grupo_input {
+    width: 260px;
+    height: 200px;
+}
+
+.grupo_input > input {
+    width: 260px;
+}
+
+.esqueci_senha {
+    width: 160px;
+    height: 25px;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    background-color: #F2F2F2;
+    color: #105F74; 
+}
+
+.grupo_botao {
+    width: 260px;
+    height: 100px;
+    padding: 0;
+}
+
+.entrar {
+    width: 260px;
+    height: 35px;
+}
+
+.registrar {
+    width: 260px;
+    height: 35px;
+}
+
+
+
+}

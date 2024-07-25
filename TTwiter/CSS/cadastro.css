@@ -1,0 +1,252 @@
+* {
+    font-family: "Inter";
+}
+
+body {
+    
+    background-color: #181B24;
+    margin: 0;
+    padding: 50px;
+}
+
+.apresentacao {
+    max-width: 90rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+   
+}
+
+.tela_branca {
+    min-width: 544px;
+    
+    height: 767px;
+    background-color: #F2F2F2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.logo {
+    position: relative;
+    top: 100px;
+}
+.text_cadastro { /* texto da parte de cima - CADASTRO*/
+
+    font-size: 24px;
+
+    margin: 0;
+   
+}
+
+.grupo_input {
+    width: 25rem;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+   
+}
+
+.grupo_input > input {
+    width: 25rem; /*tamanho da caixa de texto toda*/
+    height: 35px;
+    border-radius: 10px;
+    border-color: #272727; 
+}
+
+.grupo_input > input::placeholder {
+    color: #484848; /*cor da letra da caixa de texto*/
+    width: 130px;
+    background-color: transparent;
+    position: relative;
+    left: 10px;
+   
+    
+    
+}
+
+.usuario { /*cor do texto dentro do input*/
+
+    width: 40px;
+    font-size: 11px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    z-index: 10;
+    padding-left: 2px;
+    background-color: white; /*cor fundo da label*/
+}
+
+.email {
+    width: 30px;
+    font-size: 11px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    z-index: 10;
+    padding-left: 2px;
+    background-color: white; /*cor fundo da label*/
+}
+
+.data {
+    width: 105px;
+    font-size: 11px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    z-index: 10;
+    padding-left: 2px;
+    background-color: white; /*cor fundo da label*/
+}
+
+.senha {
+    width: 35px;
+    font-size: 11px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    z-index: 10;
+    padding-left: 2px;
+    background-color: white; /*cor fundo da label*/
+}
+
+.confirma_senha {
+    width: 85px;
+    font-size: 11px;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    z-index: 10;
+    
+    padding-left: 2px;
+    background-color: white; /*cor fundo da label*/
+}
+
+.checkbox {
+    position: relative;
+    bottom: 10px;
+}
+
+.termos {
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.grupo_final {
+    width: 25rem;
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo_botao {
+    width: 25rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.botao_cadastrar {
+    width: 400px;
+    height: 49px;
+    background-color: #105F74;
+    color: #F2F2F2; 
+    border-radius: 8px;
+    border: none;
+    font-weight: 800; 
+
+}
+
+
+.botao_login {
+
+    color: #105F74; 
+    border-radius: 8px;  
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 980px) {
+
+body {
+    padding-top: 0;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+.tela_branca {
+    width: 18.5rem;
+    height: 644px;
+    top: 20px;
+}
+
+.logo {
+    max-width: 130px;
+    height: 130px;
+
+    position: relative;
+    left: 35px;
+    top: 0;
+    padding: 0;
+    z-index: 100;
+}
+.text_cadastro {
+    position: relative;
+    bottom: 0;
+}
+
+.grupo_input {
+    max-width: 270px;
+}
+
+.grupo_input > input {
+    max-width:260px ;
+}
+
+.termos {
+    width: 260px;
+    padding: 0;
+}
+
+.grupo_final {
+    width: 260px;  
+}
+
+.checkbox {
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+.grupo_botao{
+    width: 260px;  
+}
+
+.botao_cadastrar {
+    width: 260px;
+}
+
+
+}
